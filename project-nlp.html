@@ -50,7 +50,7 @@
         <h1 class="heading-primary">Topic Prediction in Social App</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Predict stock price mainly using Pension Fund
+            Analysis and Future Topic Prediction and Utilization of Social Media Application ('EVERYTIME') for 4 Years through Text Mining
           </p>
         </div>
     
@@ -61,7 +61,7 @@
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="images/stock.png"
+              src="images/project_nlp_main.jpeg"
               alt="Project Image"
               class="project-details__showcase-img"
             />
@@ -70,33 +70,42 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                Designed an advanced predictive model for stock price movements using LSTM neural network, which significantly enhanced ability to forecast market trends.
-                Using various time-series predictive model and conducted a comprehensive analysis on the relationship between pension funds and stock prices, sheding light on the impact of pension funds on stock prices.
-                offering valuable insights for strategic decision-making.
-                Refining the time intervals used in our LSTM model, achieved an 6% increase in accuracy, bolstering our forecasting capabilities. 
+                <h4>Crawling and Preprocessing Data</h4>
+                Data includes the titles and contents of each post, posting time, number of likes and comments, and links. 
+                Conducted filtering based on the number of likes and comments. Also removed stopwords and incomplete characters with consonnants, vowels, and final consonants, as well as 
+                special characters. For tokenization, used a tokenizer like Word2Vec.
+
+                <h4>Embedding and Clustering</h4>
+                For word/sentence embedding, we used Word2Vec, Doc2Vec, and FastText embedding models and based on this, visualized the distribution of the text data. 
+                <img src = 'images/NLP_clustering.png' alt = 'clustering visualization' />
+
+                <h4>Topic Modeling</h4>
+                Applied various topic modeling techniques (LDA, DMR, ATM) to data and visualized the results. 
+                By applying topic modeling, develop a model that extracts information about key workds for each month based on TF-IDF 
+                and the similarity between words, assigning importance to specific words. 
+                <img src = "images/NLP_topicmodling.png" alt = "Topic Modeling Structure" />
+  
               </p>
               <p class="project-details__desc-para">
-                Receiving assignment from the company, the purpose was to investigate the relationship between pension funds and stock prices.
-                Through various modeling, trend analysis, and seasonality analysis, we concluded that there is <strong>not a significant correlation between them</strong>
-                and that the pension fund is not an adequate strong feature to be used in price prediction. 
-                We initially thought that finding a specific correlation was the goal of this project, but the desired outcome form the company was to 
-                establish that there is no tremendous correlation between pensionf funds and stock prices. By producing the result they wanted,
-                we were able to win an 2nd award. 
+                Upon examining the monthly words in the app from 2017 to 2020, we discovered that certain words or words with similar meanings
+                were consistently found in specific months. 
+
+                By predicting the demand for students' seasonal requirements in advacne,we were able to quickly provide students with necessary
+                infomration tailored to their needs, and respond rapidly based on the opinions being formed. 
+                Based on these results, we collaborated with the student council to proactively address three topic that were expected to receive a high number of 
+                inquiries each month. We sent out relevant informational materials, emails, and other forms of communication. 
+                As a result, compared to the previous year, we achieved a<b> 40% reduction in questions related to those specific topics. </b>
               </p>
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
                 <div class="skills__skill">Python</div>
-                <div class="skills__skill">Time-Series Analysis</div>
-                <div class="skills__skill">Trend-Seasonality Analysis</div>
-                <div class="skills__skill">Time-Series Forecasting</div>
-                <div class="skills__skill">ARIMA</div>
-                <div class="skills__skill">SARIMA</div>
-                <div class="skills__skill">Random Forest</div>
-                <div class="skills__skill">KNN</div>
-                <div class="skills__skill">Vanilla RNN</div>
-                <div class="skills__skill">LSTM</div>
+                <div class="skills__skill">Natural Language Processing</div>
+                <div class="skills__skill">Topic Modling</div>
+                <div class="skills__skill">Data Preprocessing</div>
+                <div class="skills__skill">Data Visualization</div>
+                
               </div>
             </div>
             
