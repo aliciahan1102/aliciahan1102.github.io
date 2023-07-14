@@ -40,7 +40,7 @@
         padding: 19rem 0 13rem 0;
         margin: auto;
         position: static;
-        transform: translate(0, 0); } }
+        transform: unset;} }
   .project-cs-hero__info {
     margin: 3rem auto 0 auto;
     max-width: 80rem; }
