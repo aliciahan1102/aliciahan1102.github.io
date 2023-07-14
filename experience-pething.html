@@ -47,10 +47,10 @@
   <!-- End header -->
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Topic Prediction in Social App</h1>
+        <h1 class="heading-primary">Pething</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Analysis and Future Topic Prediction and Utilization of Social Media Application ('EVERYTIME') for 4 Years through Text Mining
+            Recommendation System
           </p>
         </div>
     
@@ -60,48 +60,61 @@
       <div class="main-container">
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
+            <img
+              src="images/experience_pething_main.png"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
           </div>
           <div class="project-details__content-main">
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                <h4>Crawling and Preprocessing Data</h4>
-                Data includes the titles and contents of each post, posting time, number of likes and comments, and links. 
-                Conducted filtering based on the number of likes and comments. Also removed stopwords and incomplete characters with consonnants, vowels, and final consonants, as well as 
-                special characters. For tokenization, used a tokenizer like Word2Vec.
-
-                <h4>Embedding and Clustering</h4>
-                For word/sentence embedding, we used Word2Vec, Doc2Vec, and FastText embedding models and based on this, visualized the distribution of the text data. 
-                <img src = 'images/NLP_clustering.jpeg' alt = 'clustering visualization' class="project-details__showcase-img"/>
-
-                <h4>Topic Modeling</h4>
-                Applied various topic modeling techniques (LDA, DMR, ATM) to data and visualized the results. 
-                By applying topic modeling, develop a model that extracts information about key workds for each month based on TF-IDF 
-                and the similarity between words, assigning importance to specific words. 
-                <img src = "images/NLP_topicmodling.png" alt = "Topic Modeling Structure" class="project-details__showcase-img"/>
-  
+               At Pething, we specialize in delivering exceptional experiences to dog owners through our flagship product : 
+               a curated monthly subscription box filled with carefully selected dog supplies. Our mission is to ensure that each user receives
+              a personalized assortment of premium products tailored specifically to their furry companion's needs and preferences. 
               </p>
-              <p class="project-details__desc-para">
-                Upon examining the monthly words in the app from 2017 to 2020, we discovered that certain words or words with similar meanings
-                were consistently found in specific months. 
 
-                By predicting the demand for students' seasonal requirements in advacne,we were able to quickly provide students with necessary
-                infomration tailored to their needs, and respond rapidly based on the opinions being formed. 
-                Based on these results, we collaborated with the student council to proactively address three topic that were expected to receive a high number of 
-                inquiries each month. We sent out relevant informational materials, emails, and other forms of communication. 
-                As a result, compared to the previous year, we achieved a<b> 40% reduction in questions related to those specific topics. </b>
+              <p class ='project-details__desc-para'>
+                Primary object was to anticipate and surpass our customer's expectations by curating the ideal
+                combination of products for their subscription boxes, even before they had the chance to customize them. 
+                Drawing from a diverse range of data sources, including comprehensive review data, insights from previous month's box contents
+                (including items kept and returned), and user preferences, developed a sophisticated algorithm approach. 
               </p>
+
+              <p class = 'project-details__desc-para'> Our project led to a staggering 67% increase in satisfaction survey responses, reflecting the 
+                high level of engagement and customer satisfaction with our personalized subscription boxes. Additionally, we experienced a notable 30% boost
+                in subscribers, demonstrating the effectiveness of our curated offerings. 
+              </p>
+             
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
                 <ul>
-                <li> <div class="skills__skill">Python</div> </li>
-                <li> <div class="skills__skill">Natural Language Processing </div> </li>
-                <li> <div class="skills__skill">Topic Modling   [LDA . DMR . ATM]</div> </li>
-                <li>  <div class="skills__skill">Data Preprocessing</div> </li>
-                <li> <div class="skills__skill">Data Visualization</div> </li>
+                  <li> <div class="skills__skill">Python</div> </li>
+                  <li> <div class="skills__skill">Recommendation System</div> </li>
+
+                  <ol> <div class="skills__skill"> Content-Based Filtering
+                    <p>The item matrix is constructed using one-hot encoding to represent the characteristics and composition of each item.
+                      By assigning binary vectors to features like toy types (ball, plush toy, chew toy) or treat ingredients (e.g., chicken, beef, lamb).
+                      Create a matrix that captures the unique attributes of each item. This matrix is then multiplied with user-specific data, including
+                      past purchase history and preferences gathered during registration, to identify the most suitable items. 
+                    </p>
+                  </div></ol>
+
+                  <ol> <div class="skills__skill"> Collaborative-Based Filtering
+                    <p> Users with similar dog breeds or those who share similar preferences based on review data are identified. 
+                      By analyzing their past behavior and item preferences, recommend items that have been favored by users with similar profiles. 
+
+                    </p>
+                  </div></ol>
+                  
+                  
+  
+                   
                 </ul>
+            
               </div>
             </div>
             
@@ -114,7 +127,7 @@
           <div class="row">
               <div class="col-sm-5 copyright">
                   <p>
-                      Copyright &copy; <span id="current-year">2022</span> Alicia Han
+                      Copyright &copy; <span id="current-year">2022</span> Alicia Han 
                   </p>
               </div>
               <div class="col-sm-2 top">
