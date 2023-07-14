@@ -70,19 +70,21 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                Designed an advanced predictive model for stock price movements using LSTM neural network, which significantly enhanced ability to forecast market trends.
-                Using various time-series predictive model and conducted a comprehensive analysis on the relationship between pension funds and stock prices, sheding light on the impact of pension funds on stock prices.
-                offering valuable insights for strategic decision-making.
-                Refining the time intervals used in our LSTM model, achieved an 6% increase in accuracy, bolstering our forecasting capabilities. 
+                Developed an advanced predictive model utilizing LSTM neural network architecture to effectively forecast stock price movements. 
+                Employed diverse time-series predictive models and conducted in-depth analysis on the intricate relationship between pension funds and stock prices, 
+                illuminating their impact on market dynamics. These invaluable insights provided a solid foundation for strategic decision-making. Enhanced the accuracy of our LSTM model by refining time intervals, 
+                resulting in an impressive 6% increase and bolstering our forecasting capabilities. </p>
+              <p class="project-details__desc-para">
+                Received a challenging assignment from a prominent company to investigate the correlation between pension funds and stock prices. 
+                Employing a comprehensive approach involving sophisticated modeling techniques, trend analysis, and seasonality analysis, 
+                our findings revealed that the relationship between these factors is not statistically significant. 
+                This research established that pension funds do not serve as a strong indicator for price prediction. 
               </p>
               <p class="project-details__desc-para">
-                Receiving assignment from the company, the purpose was to investigate the relationship between pension funds and stock prices.
-                Through various modeling, trend analysis, and seasonality analysis, we concluded that there is <strong>not a significant correlation between them</strong>
-                and that the pension fund is not an adequate strong feature to be used in price prediction. 
-                We initially thought that finding a specific correlation was the goal of this project, but the desired outcome form the company was to 
-                establish that there is no tremendous correlation between pensionf funds and stock prices. By producing the result they wanted,
-                we were able to win an 2nd award. 
-              </p>
+                Although our initial objective was to uncover a specific correlation, our successful 
+                outcome was to demonstrate the absence of a significant connection between pension funds and stock prices. 
+                Our achievements in delivering the desired result earned us the prestigious 2nd award. </p>
+
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
@@ -90,14 +92,32 @@
                 <ul>
                   <li> <div class="skills__skill">Python</div> </li>
                   <li> <div class="skills__skill">Time-Series Analysis</div> </li>
-                  <li> <div class="skills__skill">Trend-Seasonality Analysis</div> </li>
+
+                  <ol> <div class="skills__skill">1. Trend and Seasonality Analysis : Visualized monthly averages of analysis variables and used box plots
+                    to analyze seasonality on a monthly, weekly, and daily basis</div></ol>
+                  <ol> <div class="skills__skill"> 2. Correlation Analysis : Measured correlation coefficients to analyze the relationship between stock prices,
+                    pension funds, and investment entities. Accounted for spurious correlation by using differenced data from unit root tests.</div></ol>
+                  <ol> <div class="skills__skill"> 3. Unit root Tests : Conducted unit root tests (ADF,PP) to determine the stationary of time series and ensure reliable correlation
+                    measurements </div></ol>
+                  <ol> <div class="skills__skill">4. VAR Model : Consider interdependencies between variables and determine lag length using information criteria </div></ol>
+                  <ol> <div class="skills__skill"> 5. Cointegration Tests : Employed Johansen test to detect long-term correlations between variables and verify meaningful relationships</div></ol>
+                  <ol> <div class="skills__skill">6. Impulse Response Function : Used to access the dynamic response of variables in the VAR model to shocks and determine the relative importance of each variable  </div></ol>
+                
+                  
                   <li>  <div class="skills__skill">Time-Series Forecasting</div> </li>
-                  <li>  <div class="skills__skill">ARIMA</div> </li>
-                  <li>  <div class="skills__skill">SARIMA</div> </li>
-                  <li>   <div class="skills__skill">Random Forest</div> </li>
-                  <li>   <div class="skills__skill">KNN</div> </li>
-                  <li>   <div class="skills__skill">Vanilla RNN</div> </li>
-                  <li>   <div class="skills__skill">LSTM</div> </li>
+                    <ol><div class = "skills__skill">ARIMA, SARIMA
+                      <p> Applied to the Korea Stock Market indices, considering variables
+                      such as price, pension funds, and other investors. Feature selection, grid-search, and cross-validation 
+                      were used to optimize the models' performance
+                    </p></div></ol>
+                    <ol><div class = "skills__skill"> Machine Learning model - Random Forest
+                      <p>Predict the fluctuations of KOSPI indices. The dependent variable used was the price difference between the
+                      current day's closing price and the previous day's closing price. The independent variables included individual investors, institutional investors, foreigners, and the presence of pension funds.
+                      Implemented separate models for each variable combination. </p></div></ol>
+                    <ol> <div class = "skills__skill">Deep Learning model - LSTM, Vanilla RNN 
+                      <p>Predict stock prices for different time periods. 
+                      Vanilla RNN has a tendency for underfitting in smaller data intervals. To address this, LSTM was employed and compared.
+                    </p></div></ol>
                 </ul>
             
               </div>
