@@ -22,7 +22,7 @@
 .project-cs-hero {
   color: #fff;
   background-color:#1F2833;
-  background-image: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../images/project_stock_main.webp);
+ 
   background-size: cover;
   background-position: center;
   position: relative; }
