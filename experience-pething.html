@@ -70,27 +70,48 @@
                a curated monthly subscription box filled with carefully selected dog supplies. Our mission is to ensure that each user receives
               a personalized assortment of premium products tailored specifically to their furry companion's needs and preferences. 
               </p>
-
+              <h3 class="project-details__content-title">Project Overview</h3>
               <p class ='project-details__desc-para'>
-                Primary object was to anticipate and surpass our customer's expectations by curating the ideal
-                combination of products for their subscription boxes, even before they had the chance to customize them. 
-                Drawing from a diverse range of data sources, including comprehensive review data, insights from previous month's box contents
-                (including items kept and returned), and user preferences, developed a sophisticated algorithm approach. 
+                <ul>
+                  <li>Data-Driven Personalization : </li>
+                  <p> Developed a recommendation algorithm that leveraged data insights to curate personalized subscription boxes based
+                    on individual dog owner preferences.
+                  </p>
+                  <li>Hybrid Approach : </li>
+                  <p> Integrated a hybrid recommendation system combining content-based filtering, collaborative-based filtering , and matrix factorization techniques.
+                    This approach enabled us to provide accurate and diverse recommendations.
+                  </p>
+                  <li>Collaborative Filtering : </li>
+                  <p> Employed user-based and item-based collaborative filtering techniques to identify users with similar dog breeds or preferences. 
+                    This tapped into collective preferences, offering personalized recommendations that resonated with each user.
+                  </p>
+                  <li>Latent Collaborative Filtering : </li>
+                  <p> Utilized matrix factorization to uncover latent factors that drove user-item interactions. By capturing underlying pattenrs, 
+                    we enhanced recommendation accuracy beyond explicit attributes.
+                  </p>
+                  <li>Impactful Results : </li>
+                  <p> Achieved a remarkable <b>67% increase in customer satisfaction responses</b>, a <b>30% boost in subscribers</b>,
+                    and a <b>37% increase in sales</b>.
+                  </p>
+                </ul>
+                
               </p>
+              <h3 class="project-details__content-title">Takeaways</h3>
+              <p class="project-details__desc-para">
+                This project allowed me to dive deep into the realms of recommendation systems. It reinforced the importance of data-driven
+                Personalization in enhancing user experiences and business outcomes. The success of the project highlighted the potential of harnessing user behavior
+                and preferences to drive significant improvements in key business metrics.  
+               </p>
 
-              <p class = 'project-details__desc-para'> Our project led to a staggering 67% increase in satisfaction survey responses, reflecting the 
-                high level of engagement and customer satisfaction with our personalized subscription boxes. Additionally, we experienced a notable 30% boost
-                in subscribers, demonstrating the effectiveness of our curated offerings. 
-              </p>
              
             </div>
             <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
+              <h3 class="project-details__content-title">Technical Depth</h3>
               <div class="skills">
                 <ul>
-                  <li> <div class="skills__skill">Python</div> </li>
-                  <li> <div class="skills__skill">Recommendation System</div> </li>
-
+                  <li> <div class="skills__skill">Utilized Python and Surprise library</div> </li>
+                  <li> <div class="skills__skill">Developed a user-item interaction matrix to capture user preferences and item interactions</div> </li>
+                  <li> <div class="skills__skill">Implemented matrix factorizaton to discover latent factors driving interactions</div> </li>
                   <ol> <div class="skills__skill"> Content-Based Filtering
                     <p>The item matrix is constructed using one-hot encoding to represent the characteristics and composition of each item.
                       By assigning binary vectors to features like toy types (ball, plush toy, chew toy) or treat ingredients (e.g., chicken, beef, lamb).
@@ -98,16 +119,6 @@
                       past purchase history and preferences gathered during registration, to identify the most suitable items. 
                     </p>
                   </div></ol>
-
-                  <ol> <div class="skills__skill"> Collaborative-Based Filtering
-                    <p> Users with similar dog breeds or those who share similar preferences based on review data are identified. 
-                      By analyzing their past behavior and item preferences, recommend items that have been favored by users with similar profiles. 
-
-                    </p>
-                  </div></ol>
-                  
-                  
-  
                    
                 </ul>
             
